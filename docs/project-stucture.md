@@ -136,7 +136,7 @@ utility/
 │ │ └── ResultsSummary.tsx
 │ ├── hooks/
 │ ├── utils/
-│ │ └── instagramParser.ts
+│ │ └── exportParser.ts
 │ └── types.ts
 │
 ├── json-formatter/

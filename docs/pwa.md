@@ -27,7 +27,7 @@ Read this before adding or changing a manifest, service worker, icon or offline 
 
 ## Shared origin
 
-- All utilities share one origin, so `localStorage`, IndexedDB and Cache Storage are shared. Prefix storage keys per app (for example `instagram:settings`).
+- All utilities share one origin, so `localStorage`, IndexedDB and Cache Storage are shared. Prefix storage keys per app (for example `ig-followers-check:settings`).
 - Links to other utilities are outside an installed app's scope, so the browser opens them outside the app window.
 
 ## Hosting

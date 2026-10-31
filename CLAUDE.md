@@ -35,7 +35,7 @@ Never use npm or yarn. Never edit `pnpm-lock.yaml` by hand.
 
 Use aliases, not deep relative paths. Keep Vite and `tsconfig` in sync.
 
-`@` → `src/`, `@shared`, `@components`, `@ui`, `@config`, `@hooks`, `@lib`, `@styles` → matching folders under `src/shared/`, `@apps` → `src/apps/`, `@site`, `@instagram`, `@json`, `@image` → the matching app folders.
+`@` → `src/`, `@shared`, `@components`, `@ui`, `@config`, `@hooks`, `@lib`, `@styles` → matching folders under `src/shared/`, `@apps` → `src/apps/`, `@site`, `@ig-followers-check`, `@json`, `@image` → the matching app folders.
 
 ## UI
 
