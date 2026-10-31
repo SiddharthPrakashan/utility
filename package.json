@@ -1,35 +1,51 @@
 {
-  "name": "utility",
+  "name": "utility.siddharthprakashan",
+  "private": true,
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "author": "Siddharth Prakashan",
+  "license": "MIT",
+  "packageManager": "pnpm@10.25.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --pretty",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "pnpm typecheck && pnpm lint",
+    "clean": "rm -rf dist node_modules/.vite"
   },
   "dependencies": {
-    "react": "^19.3.1",
-    "react-dom": "^19.3.1"
+    "ag-grid-react": "^36.2.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.65.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@types/node": "^24.19.2",
-    "@types/react": "^19.3.0",
-    "@types/react-dom": "^19.3.0",
+    "@tailwindcss/vite": "^4.1.13",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
     "@vitejs/plugin-react": "^6.1.2",
-    "eslint": "^10.13.0",
+    "eslint": "^10.14.0",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.7",
     "globals": "^17.13.0",
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.8.1",
+    "tailwindcss": "^4.1.13",
     "typescript": "~7.0.2",
-    "typescript-eslint": "^8.72.0",
+    "typescript-eslint": "^8.44.0",
     "vite": "^8.3.5",
     "vite-plugin-mkcert": "^2.1.0"
-  },
-  "keywords": [],
-  "author": "Siddharth Prakashan",
-  "license": "MIT",
-  "packageManager": "pnpm@10.25.0"
+  }
 }
