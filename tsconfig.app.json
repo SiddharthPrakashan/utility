@@ -22,19 +22,18 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
 
-    "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"],
-      "@shared/*": ["src/shared/*"],
-      "@components/*": ["src/shared/components/*"],
-      "@ui/*": ["src/shared/components/ui/*"],
-      "@config/*": ["src/shared/config/*"],
-      "@hooks/*": ["src/shared/hooks/*"],
-      "@lib/*": ["src/shared/lib/*"],
-      "@styles/*": ["src/shared/styles/*"],
-      "@apps/*": ["src/apps/*"],
-      "@site/*": ["src/apps/site/*"],
-      "@ig-followers-check/*": ["src/apps/ig-followers-check/*"]
+      "@/*": ["./src/*"],
+      "@shared/*": ["./src/shared/*"],
+      "@components/*": ["./src/shared/components/*"],
+      "@ui/*": ["./src/shared/components/ui/*"],
+      "@config/*": ["./src/shared/config/*"],
+      "@hooks/*": ["./src/shared/hooks/*"],
+      "@lib/*": ["./src/shared/lib/*"],
+      "@styles/*": ["./src/shared/styles/*"],
+      "@apps/*": ["./src/apps/*"],
+      "@site/*": ["./src/apps/site/*"],
+      "@ig-followers-check/*": ["./src/apps/ig-followers-check/*"]
     }
   },
   "include": ["src"]

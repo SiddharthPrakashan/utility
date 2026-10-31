@@ -60,6 +60,7 @@ export default defineConfig({
         terms: path.resolve(__dirname, "terms/index.html"),
         contact: path.resolve(__dirname, "contact/index.html"),
         credits: path.resolve(__dirname, "credits/index.html"),
+        notFound: path.resolve(__dirname, "404.html"),
 
         // Utility applications
         igFollowersCheck: path.resolve(
